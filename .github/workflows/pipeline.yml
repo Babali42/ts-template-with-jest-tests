@@ -2,9 +2,9 @@ name: Build and test typescript
 
 on:
   push:
-  workflow_dispatch:
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build-and-test:
