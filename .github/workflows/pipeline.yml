@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - '**' # matches every branch
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
