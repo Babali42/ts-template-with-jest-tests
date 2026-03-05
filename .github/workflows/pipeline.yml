@@ -1,8 +1,7 @@
 name: Build and test typescript
+
 on:
   push:
-    branches:
-      - '**' # matches every branch
 
 jobs:
   build-and-test:
