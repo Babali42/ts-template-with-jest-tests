@@ -1,18 +1,45 @@
-# TypeScript project with Tests
+# Typescript Template with Jest
 
-This repository can be used as a template for creating a TypeScript project using Jest for testing.
+This repository is a GitHub template for a basic typescript application using Jest for testing.
+It can be used for code katas
 
-## Instructions
+## Getting Started
 
-- Click the "Use this template" button
+You can either **clone directly**, **open in codespace** or **create a new repository from this template**.
 
-- Click "Create new repository"
+### Clone the Repository
 
-- Give your repository a name and click "Create repository from template"
+```bash
+# clone the template
+git clone https://github.com/Babali42/ts-template-with-jest-tests
+cd ts-template-with-jest-tests
 
-- Clone down your new repository to your computer
+# install dependencies
+npm i
 
-- Navigate to the directory on your command line
+# run tests
+npm run test
+```
 
-- Run `npm install` followed by `npm test` to run the tests
+### Open and run in Codespaces
 
+This project works out of the box in GitHub Codespaces:
+
+1. Click the **Code** button and choose **Open with Codespaces**.
+2. Once the container loads, run the same install/test commands shown above.
+
+### Use as a GitHub Template
+
+1. In GitHub, navigate to this repository.
+2. Click **Use this template** and follow the prompts to create a new repository under your account or organization.
+3. Clone the newly created repository and follow the setup steps above.
+
+## Structure
+
+- `src/calc.ts` - main application code
+- `src/calc.test.ts` - sample FsUnit tests
+- `package.json` - project file
+
+## Up-to-date
+
+I use renovate to update the dependencies as soon as possible.
